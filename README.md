@@ -4,9 +4,8 @@ Simple rbc stock trade analyzer. For now only works with data from rbc
 The data format should be as in `test.csv`.
 
 
-|                                                                                   | 
-|-----------------------------------------------------------------------------------| 
 | Date,Activity,Symbol,Quantity,Price,Value,Currency,Description,Symbol Description | 
+|-----------------------------------------------------------------------------------| 
 | "July 21, 2019",Sell,BB,81,4,324,CAD,lame,test                                    | 
 | "May 21, 2019",Buy,AMC,8,10,-80,USD,lame,test                                     | 
 

@@ -1,0 +1,17 @@
+reports:
+  investment:
+    file: test.csv
+    type: stats
+    # type: dp
+    name: taxable investment account
+    output:
+      path: invest_index.html
+    settings:
+      # options are ALL, CAD, USD
+      currencies: ALL
+      simple: dp
+      show_only_current_holdings: false
+      convert_usd_to_cad: true
+      starting_year: 2019
+      txn_cost: 9.95
+      verbose: False

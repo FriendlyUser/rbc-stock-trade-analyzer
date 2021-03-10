@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Stock Report {{version}}</title>
+  <link rel="stylesheet" href="https://unpkg.com/latex.css/style.min.css" />
+  <style>
+      body {
+        max-width: 90%;
+      }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h1>Stock Reports</h1>
+    <p>
+      Profit Calculation only counts when there is a zero sum value for the TotalQty.
+    </p>
+    <p>Total Profit {{total_profit}} </p>
+    <p>Input Amount {{input}}</p>
+    <p>Commissions {{commissions}}</p>
+    {% for ticker in ticker_data %}
+      <h2>{{ticker.ticker}}</h2>
+      <p>
+        {{ticker.description}}
+      </p>
+      <div>
+        <span>First Txn: {{ticker.start_date}}</span> &nbsp; &nbsp; &nbsp; &nbsp;
+        <span>Last Txn: {{ticker.end_date}}</span>  &nbsp; &nbsp; &nbsp; &nbsp;
+        <span>Approximate Realised Profits: {{ticker.profit}}</span>
+      </div>
+      {{ticker.data.to_html(index=False) | safe}}
+    {% endfor %}
+  </div>
+  <div>
+    By David Li - Stock Report Generation from rbc trades
+  </div>
+</body>
+</html>

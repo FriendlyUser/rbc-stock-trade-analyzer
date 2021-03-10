@@ -1,0 +1,16 @@
+Date,Activity,Symbol,Quantity,Price,Value,Currency,Description,Symbol Description
+"July 21, 2019",Sell,BB,81,4,324,CAD,lame,test
+"May 21, 2019",Buy,AMC,8,10,-80,USD,lame,test
+"January 05, 2019",Buy,AMC,3,3,-9,USD,lame,test
+"July 03, 2019",Buy,AMC,10,14,-140,USD,lame,test
+"June 11, 2019",Sell,AMC,7,15,105,USD,lame,test
+"April 16, 2019",Buy,GME,10,5,-50,USD,lame,test
+"October 22, 2019",Buy,AMC,8,5,-40,USD,lame,test
+"March 09, 2019",Buy,GME,5,11,-55,USD,lame,test
+"January 14, 2019",Buy,BB,7,15,-105,CAD,lame,test
+"April 29, 2019",Sell,GME,10,1,10,USD,lame,test
+"April 18, 2019",Sell,GME,3,4,12,USD,lame,test
+"July 20, 2019",Buy,GME,1,9,-9,USD,lame,test
+"February 04, 2020",Sell,GME,6,15,90,USD,lame,test
+"December 10, 2020",Buy,BB,4,12,-48,CAD,lame,test
+"October 25, 2020",Buy,BB,8,15,-120,CAD,lame,test
